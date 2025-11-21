@@ -1,0 +1,2362 @@
+[
+    {
+        "id": 1,
+        "level": "easy",
+        "title": "Sum Two Numbers",
+        "description": "Read two integers and output their sum.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "1 2",
+                "stdout": "3"
+            },
+            {
+                "stdin": "0 0",
+                "stdout": "0"
+            },
+            {
+                "stdin": "-1 5",
+                "stdout": "4"
+            },
+            {
+                "stdin": "100 200",
+                "stdout": "300"
+            },
+            {
+                "stdin": "-5 -7",
+                "stdout": "-12"
+            },
+            {
+                "stdin": "999 1",
+                "stdout": "1000"
+            },
+            {
+                "stdin": "12345 54321",
+                "stdout": "66666"
+            },
+            {
+                "stdin": "-100 50",
+                "stdout": "-50"
+            },
+            {
+                "stdin": "7 8",
+                "stdout": "15"
+            },
+            {
+                "stdin": "214748364 -1",
+                "stdout": "214748363"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "level": "easy",
+        "title": "Array Max",
+        "description": "Given n followed by n integers, print the maximum value.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "3\n1 2 3",
+                "stdout": "3"
+            },
+            {
+                "stdin": "4\n-1 -2 -3 -4",
+                "stdout": "-1"
+            },
+            {
+                "stdin": "1\n10",
+                "stdout": "10"
+            },
+            {
+                "stdin": "5\n5 4 3 2 1",
+                "stdout": "5"
+            },
+            {
+                "stdin": "6\n0 0 0 0 0 0",
+                "stdout": "0"
+            },
+            {
+                "stdin": "3\n-5 0 5",
+                "stdout": "5"
+            },
+            {
+                "stdin": "2\n100 100",
+                "stdout": "100"
+            },
+            {
+                "stdin": "7\n1 9 8 7 6 5 4",
+                "stdout": "9"
+            },
+            {
+                "stdin": "4\n-10 -20 -3 -4",
+                "stdout": "-3"
+            },
+            {
+                "stdin": "3\n999 1000 500",
+                "stdout": "1000"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "level": "easy",
+        "title": "Count Vowels",
+        "description": "Given a string (single line), count the number of vowels (a,e,i,o,u, case-insensitive) and print the count.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "hello",
+                "stdout": "2"
+            },
+            {
+                "stdin": "AEIOU",
+                "stdout": "5"
+            },
+            {
+                "stdin": "bcdfg",
+                "stdout": "0"
+            },
+            {
+                "stdin": "Programming",
+                "stdout": "3"
+            },
+            {
+                "stdin": "None",
+                "stdout": "0"
+            },
+            {
+                "stdin": "Umbrella",
+                "stdout": "3"
+            },
+            {
+                "stdin": "xyzAE",
+                "stdout": "2"
+            },
+            {
+                "stdin": "aAa",
+                "stdout": "3"
+            },
+            {
+                "stdin": "OpenAI",
+                "stdout": "3"
+            },
+            {
+                "stdin": "Mississippi",
+                "stdout": "4"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "level": "easy",
+        "title": "Factorial",
+        "description": "Given a non-negative integer n (0<=n<=12), compute n! and print it.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "0",
+                "stdout": "1"
+            },
+            {
+                "stdin": "1",
+                "stdout": "1"
+            },
+            {
+                "stdin": "5",
+                "stdout": "120"
+            },
+            {
+                "stdin": "10",
+                "stdout": "3628800"
+            },
+            {
+                "stdin": "12",
+                "stdout": "479001600"
+            },
+            {
+                "stdin": "3",
+                "stdout": "6"
+            },
+            {
+                "stdin": "7",
+                "stdout": "5040"
+            },
+            {
+                "stdin": "2",
+                "stdout": "2"
+            },
+            {
+                "stdin": "8",
+                "stdout": "40320"
+            },
+            {
+                "stdin": "11",
+                "stdout": "39916800"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "level": "easy",
+        "title": "Even or Odd",
+        "description": "Given an integer, print \"Even\" if it is even, otherwise print \"Odd\".",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "1",
+                "stdout": "Odd"
+            },
+            {
+                "stdin": "2",
+                "stdout": "Even"
+            },
+            {
+                "stdin": "0",
+                "stdout": "Even"
+            },
+            {
+                "stdin": "-1",
+                "stdout": "Odd"
+            },
+            {
+                "stdin": "-2",
+                "stdout": "Even"
+            },
+            {
+                "stdin": "999",
+                "stdout": "Odd"
+            },
+            {
+                "stdin": "1000",
+                "stdout": "Even"
+            },
+            {
+                "stdin": "13",
+                "stdout": "Odd"
+            },
+            {
+                "stdin": "100",
+                "stdout": "Even"
+            },
+            {
+                "stdin": "-101",
+                "stdout": "Odd"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "level": "easy",
+        "title": "Reverse String",
+        "description": "Given a string, output the reversed string.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "abc",
+                "stdout": "cba"
+            },
+            {
+                "stdin": "",
+                "stdout": ""
+            },
+            {
+                "stdin": "a",
+                "stdout": "a"
+            },
+            {
+                "stdin": "hello world",
+                "stdout": "dlrow olleh"
+            },
+            {
+                "stdin": "racecar",
+                "stdout": "racecar"
+            },
+            {
+                "stdin": "12345",
+                "stdout": "54321"
+            },
+            {
+                "stdin": "OpenAI",
+                "stdout": "IAnepO"
+            },
+            {
+                "stdin": "madam",
+                "stdout": "madam"
+            },
+            {
+                "stdin": "A B",
+                "stdout": "B A"
+            },
+            {
+                "stdin": "!@#",
+                "stdout": "#@!"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "level": "easy",
+        "title": "Sum Array",
+        "description": "Given n then n integers, output their sum.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "3\n1 2 3",
+                "stdout": "6"
+            },
+            {
+                "stdin": "4\n0 0 0 0",
+                "stdout": "0"
+            },
+            {
+                "stdin": "1\n100",
+                "stdout": "100"
+            },
+            {
+                "stdin": "5\n-1 -2 -3 -4 -5",
+                "stdout": "-15"
+            },
+            {
+                "stdin": "6\n10 20 30 40 50 60",
+                "stdout": "210"
+            },
+            {
+                "stdin": "3\n-5 0 5",
+                "stdout": "0"
+            },
+            {
+                "stdin": "2\n214748364 0",
+                "stdout": "214748364"
+            },
+            {
+                "stdin": "3\n7 7 7",
+                "stdout": "21"
+            },
+            {
+                "stdin": "4\n1 2 3 4",
+                "stdout": "10"
+            },
+            {
+                "stdin": "5\n100 200 300 400 500",
+                "stdout": "1500"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "level": "easy",
+        "title": "Palindrome Number",
+        "description": "Given an integer, determine if its decimal representation is a palindrome. Print Yes or No.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "121",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "123",
+                "stdout": "No"
+            },
+            {
+                "stdin": "1",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "22",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "-121",
+                "stdout": "No"
+            },
+            {
+                "stdin": "12321",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "10",
+                "stdout": "No"
+            },
+            {
+                "stdin": "1221",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "1001",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "909",
+                "stdout": "Yes"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "level": "easy",
+        "title": "GCD",
+        "description": "Given two positive integers a and b, print their greatest common divisor.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "12 18",
+                "stdout": "6"
+            },
+            {
+                "stdin": "7 3",
+                "stdout": "1"
+            },
+            {
+                "stdin": "100 10",
+                "stdout": "10"
+            },
+            {
+                "stdin": "17 13",
+                "stdout": "1"
+            },
+            {
+                "stdin": "36 60",
+                "stdout": "12"
+            },
+            {
+                "stdin": "48 180",
+                "stdout": "12"
+            },
+            {
+                "stdin": "1 1",
+                "stdout": "1"
+            },
+            {
+                "stdin": "270 192",
+                "stdout": "6"
+            },
+            {
+                "stdin": "14 28",
+                "stdout": "14"
+            },
+            {
+                "stdin": "81 27",
+                "stdout": "27"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "level": "easy",
+        "title": "First Non-Repeated Char",
+        "description": "Given a string, print the first non-repeated character or -1 if none.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "swiss",
+                "stdout": "w"
+            },
+            {
+                "stdin": "aabb",
+                "stdout": "-1"
+            },
+            {
+                "stdin": "abcab",
+                "stdout": "c"
+            },
+            {
+                "stdin": "a",
+                "stdout": "a"
+            },
+            {
+                "stdin": "aabbbc",
+                "stdout": "c"
+            },
+            {
+                "stdin": "xxyz",
+                "stdout": "y"
+            },
+            {
+                "stdin": "zz",
+                "stdout": "-1"
+            },
+            {
+                "stdin": "hello",
+                "stdout": "h"
+            },
+            {
+                "stdin": "stress",
+                "stdout": "t"
+            },
+            {
+                "stdin": "redivider",
+                "stdout": "v"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "level": "easy",
+        "title": "Sum Digits",
+        "description": "Given a non-negative integer, print the sum of its digits.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "123",
+                "stdout": "6"
+            },
+            {
+                "stdin": "0",
+                "stdout": "0"
+            },
+            {
+                "stdin": "999",
+                "stdout": "27"
+            },
+            {
+                "stdin": "1001",
+                "stdout": "2"
+            },
+            {
+                "stdin": "507",
+                "stdout": "12"
+            },
+            {
+                "stdin": "8",
+                "stdout": "8"
+            },
+            {
+                "stdin": "100000",
+                "stdout": "1"
+            },
+            {
+                "stdin": "2468",
+                "stdout": "20"
+            },
+            {
+                "stdin": "13579",
+                "stdout": "25"
+            },
+            {
+                "stdin": "11111",
+                "stdout": "5"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "level": "easy",
+        "title": "Rotate Left",
+        "description": "Given n and an array of n integers and integer k, rotate the array left by k positions and print resulting array (space-separated).",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "5\n1 2 3 4 5\n2",
+                "stdout": "3 4 5 1 2"
+            },
+            {
+                "stdin": "3\n1 2 3\n1",
+                "stdout": "2 3 1"
+            },
+            {
+                "stdin": "4\n1 2 3 4\n0",
+                "stdout": "1 2 3 4"
+            },
+            {
+                "stdin": "4\n1 2 3 4\n4",
+                "stdout": "1 2 3 4"
+            },
+            {
+                "stdin": "1\n10\n5",
+                "stdout": "10"
+            },
+            {
+                "stdin": "5\n10 20 30 40 50\n3",
+                "stdout": "40 50 10 20 30"
+            },
+            {
+                "stdin": "2\n1 2\n1",
+                "stdout": "2 1"
+            },
+            {
+                "stdin": "6\n1 2 3 4 5 6\n5",
+                "stdout": "6 1 2 3 4 5"
+            },
+            {
+                "stdin": "3\n5 6 7\n2",
+                "stdout": "7 5 6"
+            },
+            {
+                "stdin": "4\n9 8 7 6\n3",
+                "stdout": "6 9 8 7"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "level": "easy",
+        "title": "Binary Count Ones",
+        "description": "Given a non-negative integer, print the number of 1 bits in its binary representation.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "5",
+                "stdout": "2"
+            },
+            {
+                "stdin": "0",
+                "stdout": "0"
+            },
+            {
+                "stdin": "7",
+                "stdout": "3"
+            },
+            {
+                "stdin": "1023",
+                "stdout": "10"
+            },
+            {
+                "stdin": "1",
+                "stdout": "1"
+            },
+            {
+                "stdin": "16",
+                "stdout": "1"
+            },
+            {
+                "stdin": "31",
+                "stdout": "5"
+            },
+            {
+                "stdin": "255",
+                "stdout": "8"
+            },
+            {
+                "stdin": "1000",
+                "stdout": "6"
+            },
+            {
+                "stdin": "999",
+                "stdout": "8"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "level": "easy",
+        "title": "Min and Max",
+        "description": "Given n then n integers, print the minimum and maximum separated by space.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "3\n1 2 3",
+                "stdout": "1 3"
+            },
+            {
+                "stdin": "4\n-1 -2 -3 -4",
+                "stdout": "-4 -1"
+            },
+            {
+                "stdin": "1\n10",
+                "stdout": "10 10"
+            },
+            {
+                "stdin": "5\n5 4 3 2 1",
+                "stdout": "1 5"
+            },
+            {
+                "stdin": "3\n0 0 0",
+                "stdout": "0 0"
+            },
+            {
+                "stdin": "3\n-5 0 5",
+                "stdout": "-5 5"
+            },
+            {
+                "stdin": "2\n100 50",
+                "stdout": "50 100"
+            },
+            {
+                "stdin": "6\n1 2 3 4 5 6",
+                "stdout": "1 6"
+            },
+            {
+                "stdin": "3\n9 9 9",
+                "stdout": "9 9"
+            },
+            {
+                "stdin": "4\n2 8 4 6",
+                "stdout": "2 8"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "level": "normal",
+        "title": "Balanced Parentheses",
+        "description": "Given a string of parentheses '()[]{}', output Yes if balanced else No.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "()",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "([{}])",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "([)]",
+                "stdout": "No"
+            },
+            {
+                "stdin": "(",
+                "stdout": "No"
+            },
+            {
+                "stdin": "",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "()[]{}",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "({[]})",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "((()))",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "{[}]",
+                "stdout": "No"
+            },
+            {
+                "stdin": "}",
+                "stdout": "No"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "level": "normal",
+        "title": "Anagram Check",
+        "description": "Given two strings separated by newline, print Yes if they are anagrams (case-sensitive) else No.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "listen\nsilent",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "abc\ncba",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "aabb\nabab",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "ab\nabc",
+                "stdout": "No"
+            },
+            {
+                "stdin": "\n",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "Hello\nhello",
+                "stdout": "No"
+            },
+            {
+                "stdin": "rat\ntar",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "abc\nacb",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "a\nb",
+                "stdout": "No"
+            },
+            {
+                "stdin": "aa\naa",
+                "stdout": "Yes"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "level": "normal",
+        "title": "Matrix Diagonal Sum",
+        "description": "Given n then n x n matrix, print sum of main diagonal.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "3\n1 2 3\n4 5 6\n7 8 9",
+                "stdout": "15"
+            },
+            {
+                "stdin": "1\n10",
+                "stdout": "10"
+            },
+            {
+                "stdin": "2\n1 2\n3 4",
+                "stdout": "5"
+            },
+            {
+                "stdin": "3\n0 0 1\n0 2 0\n3 0 0",
+                "stdout": "3"
+            },
+            {
+                "stdin": "4\n1 0 0 0\n0 1 0 0\n0 0 1 0\n0 0 0 1",
+                "stdout": "4"
+            },
+            {
+                "stdin": "3\n-1 -2 -3\n-4 -5 -6\n-7 -8 -9",
+                "stdout": "-15"
+            },
+            {
+                "stdin": "2\n5 6\n7 8",
+                "stdout": "13"
+            },
+            {
+                "stdin": "3\n1 1 1\n1 1 1\n1 1 1",
+                "stdout": "3"
+            },
+            {
+                "stdin": "3\n2 3 4\n5 6 7\n8 9 10",
+                "stdout": "18"
+            },
+            {
+                "stdin": "2\n0 1\n2 0",
+                "stdout": "0"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "level": "normal",
+        "title": "Prime Factors",
+        "description": "Given integer n (2<=n<=10^6), print its prime factors in ascending order separated by space.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "12",
+                "stdout": "2 2 3"
+            },
+            {
+                "stdin": "13",
+                "stdout": "13"
+            },
+            {
+                "stdin": "100",
+                "stdout": "2 2 5 5"
+            },
+            {
+                "stdin": "2",
+                "stdout": "2"
+            },
+            {
+                "stdin": "36",
+                "stdout": "2 2 3 3"
+            },
+            {
+                "stdin": "97",
+                "stdout": "97"
+            },
+            {
+                "stdin": "60",
+                "stdout": "2 2 3 5"
+            },
+            {
+                "stdin": "210",
+                "stdout": "2 3 5 7"
+            },
+            {
+                "stdin": "45",
+                "stdout": "3 3 5"
+            },
+            {
+                "stdin": "1",
+                "stdout": ""
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "level": "normal",
+        "title": "Merge Intervals",
+        "description": "Given n and n intervals (l r), merge overlapping intervals and print merged intervals each on newline.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "3\n1 3\n2 6\n8 10",
+                "stdout": "1 6\n8 10"
+            },
+            {
+                "stdin": "2\n1 4\n4 5",
+                "stdout": "1 5"
+            },
+            {
+                "stdin": "1\n5 7",
+                "stdout": "5 7"
+            },
+            {
+                "stdin": "3\n1 2\n3 4\n5 6",
+                "stdout": "1 2\n3 4\n5 6"
+            },
+            {
+                "stdin": "4\n1 10\n2 3\n4 8\n9 12",
+                "stdout": "1 12"
+            },
+            {
+                "stdin": "2\n0 1\n2 3",
+                "stdout": "0 1\n2 3"
+            },
+            {
+                "stdin": "3\n5 6\n1 4\n2 3",
+                "stdout": "1 4\n5 6"
+            },
+            {
+                "stdin": "2\n-1 1\n0 2",
+                "stdout": "-1 2"
+            },
+            {
+                "stdin": "3\n1 5\n2 3\n4 6",
+                "stdout": "1 6"
+            },
+            {
+                "stdin": "3\n1 2\n2 3\n3 4",
+                "stdout": "1 4"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "level": "normal",
+        "title": "Longest Increasing Subsequence (len)",
+        "description": "Given n and sequence, print length of LIS (strictly increasing).",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "5\n1 2 3 4 5",
+                "stdout": "5"
+            },
+            {
+                "stdin": "5\n5 4 3 2 1",
+                "stdout": "1"
+            },
+            {
+                "stdin": "6\n1 3 2 3 4 1",
+                "stdout": "4"
+            },
+            {
+                "stdin": "1\n10",
+                "stdout": "1"
+            },
+            {
+                "stdin": "4\n2 2 2 2",
+                "stdout": "1"
+            },
+            {
+                "stdin": "7\n10 20 10 30 20 50 60",
+                "stdout": "5"
+            },
+            {
+                "stdin": "3\n1 2 2",
+                "stdout": "2"
+            },
+            {
+                "stdin": "5\n3 1 4 2 5",
+                "stdout": "3"
+            },
+            {
+                "stdin": "6\n1 2 3 1 2 3",
+                "stdout": "3"
+            },
+            {
+                "stdin": "8\n1 5 2 3 4 0 6 7",
+                "stdout": "5"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "level": "normal",
+        "title": "Word Frequency",
+        "description": "Given text (single line), output word that appears most frequently (case-insensitive). If tie, choose lexicographically smallest.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "apple banana apple",
+                "stdout": "apple"
+            },
+            {
+                "stdin": "a b a B",
+                "stdout": "a"
+            },
+            {
+                "stdin": "one two three",
+                "stdout": "one"
+            },
+            {
+                "stdin": "x x y y",
+                "stdout": "x"
+            },
+            {
+                "stdin": "apple Apple apple",
+                "stdout": "apple"
+            },
+            {
+                "stdin": "",
+                "stdout": ""
+            },
+            {
+                "stdin": "hello world hello",
+                "stdout": "hello"
+            },
+            {
+                "stdin": "a a a b b b",
+                "stdout": "a"
+            },
+            {
+                "stdin": "z y z y",
+                "stdout": "y"
+            },
+            {
+                "stdin": "abc def abc",
+                "stdout": "abc"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "level": "normal",
+        "title": "Count Islands",
+        "description": "Given grid n m and n lines of m chars '1'/'0', count islands of connected '1's (4-direction).",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "3 3\n111\n010\n111",
+                "stdout": "1"
+            },
+            {
+                "stdin": "1 1\n0",
+                "stdout": "0"
+            },
+            {
+                "stdin": "2 2\n10\n01",
+                "stdout": "2"
+            },
+            {
+                "stdin": "3 3\n100\n010\n001",
+                "stdout": "3"
+            },
+            {
+                "stdin": "2 3\n111\n111",
+                "stdout": "1"
+            },
+            {
+                "stdin": "3 3\n000\n000\n000",
+                "stdout": "0"
+            },
+            {
+                "stdin": "3 4\n1100\n1100\n0011",
+                "stdout": "2"
+            },
+            {
+                "stdin": "3 3\n101\n010\n101",
+                "stdout": "5"
+            },
+            {
+                "stdin": "2 2\n11\n11",
+                "stdout": "1"
+            },
+            {
+                "stdin": "3 3\n100\n100\n100",
+                "stdout": "1"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "level": "normal",
+        "title": "Rotate Matrix 90",
+        "description": "Given n and n x n matrix, rotate it 90 degrees clockwise and print resulting matrix.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "2\n1 2\n3 4",
+                "stdout": "3 1\n4 2"
+            },
+            {
+                "stdin": "3\n1 2 3\n4 5 6\n7 8 9",
+                "stdout": "7 4 1\n8 5 2\n9 6 3"
+            },
+            {
+                "stdin": "1\n10",
+                "stdout": "10"
+            },
+            {
+                "stdin": "2\n1 0\n0 1",
+                "stdout": "0 1\n1 0"
+            },
+            {
+                "stdin": "3\n1 0 0\n0 1 0\n0 0 1",
+                "stdout": "0 0 1\n0 1 0\n1 0 0"
+            },
+            {
+                "stdin": "2\n5 6\n7 8",
+                "stdout": "7 5\n8 6"
+            },
+            {
+                "stdin": "3\n2 3 4\n5 6 7\n8 9 10",
+                "stdout": "8 5 2\n9 6 3\n10 7 4"
+            },
+            {
+                "stdin": "2\n9 8\n7 6",
+                "stdout": "7 9\n6 8"
+            },
+            {
+                "stdin": "3\n1 1 1\n2 2 2\n3 3 3",
+                "stdout": "3 2 1\n3 2 1\n3 2 1"
+            },
+            {
+                "stdin": "2\n0 1\n2 3",
+                "stdout": "2 0\n3 1"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "level": "normal",
+        "title": "Evaluate Expression (no precedence)",
+        "description": "Given n integers then n-1 operators (+ - * /), evaluate left-to-right ignoring precedence, integer division truncating toward zero.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "3\n1 2 3\n+ -",
+                "stdout": "0"
+            },
+            {
+                "stdin": "2\n4 6\n*",
+                "stdout": "24"
+            },
+            {
+                "stdin": "3\n10 3 2\n/ +",
+                "stdout": "5"
+            },
+            {
+                "stdin": "2\n5 2\n/",
+                "stdout": "2"
+            },
+            {
+                "stdin": "3\n2 3 4\n* *",
+                "stdout": "24"
+            },
+            {
+                "stdin": "4\n10 2 3 1\n/ * -",
+                "stdout": "14"
+            },
+            {
+                "stdin": "2\n7 3\n-",
+                "stdout": "4"
+            },
+            {
+                "stdin": "3\n5 5 5\n+ +",
+                "stdout": "15"
+            },
+            {
+                "stdin": "3\n9 4 2\n/ /",
+                "stdout": "1"
+            },
+            {
+                "stdin": "2\n-3 2\n/",
+                "stdout": "-1"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "level": "normal",
+        "title": "Subarray Sum Equals K",
+        "description": "Given n and sequence and integer k, determine if there exists a contiguous subarray summing to k. Print Yes or No.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "5\n1 2 3 4 5\n9",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "3\n1 2 3\n7",
+                "stdout": "No"
+            },
+            {
+                "stdin": "1\n5\n5",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "4\n-1 1 -1 1\n0",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "5\n2 4 6 8 10\n3",
+                "stdout": "No"
+            },
+            {
+                "stdin": "5\n0 0 0 0 0\n0",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "3\n-1 -2 -3\n-6",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "4\n1 2 1 2\n3",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "3\n1 1 1\n2",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "5\n5 -1 2 3 1\n5",
+                "stdout": "Yes"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "level": "hard",
+        "title": "Dijkstra Shortest Path",
+        "description": "Given n m, edges (u v w) for undirected weighted graph, and source s, print shortest distances from s to all nodes (use -1 for unreachable). Nodes are 1-indexed.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "4 4\n1 2 5\n2 3 2\n1 3 9\n3 4 1\n1",
+                "stdout": "0 5 7 8"
+            },
+            {
+                "stdin": "3 1\n1 2 4\n3\n1",
+                "stdout": "0 4 -1"
+            },
+            {
+                "stdin": "2 0\n\n1",
+                "stdout": "0 -1"
+            },
+            {
+                "stdin": "4 3\n1 2 1\n2 3 1\n3 4 1\n2",
+                "stdout": "2 0 1 2"
+            },
+            {
+                "stdin": "5 4\n1 2 2\n2 3 2\n3 4 2\n4 5 2\n3",
+                "stdout": "6 4 0 2 4"
+            },
+            {
+                "stdin": "3 3\n1 2 1\n2 3 1\n1 3 5\n2",
+                "stdout": "1 0 1"
+            },
+            {
+                "stdin": "1 0\n\n1",
+                "stdout": "0"
+            },
+            {
+                "stdin": "4 4\n1 2 1\n2 3 1\n3 4 1\n4 1 1\n3",
+                "stdout": "1 2 0 1"
+            },
+            {
+                "stdin": "3 2\n1 2 3\n1 3 4\n2",
+                "stdout": "3 0 7"
+            },
+            {
+                "stdin": "4 2\n1 2 10\n3 4 5\n1",
+                "stdout": "0 10 -1 -1"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "level": "hard",
+        "title": "Topological Sort",
+        "description": "Given n m and directed edges, if DAG print one topological order else print \"Cycle\".",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "3 2\n1 2\n2 3",
+                "stdout": "1 2 3"
+            },
+            {
+                "stdin": "3 3\n1 2\n2 3\n3 1",
+                "stdout": "Cycle"
+            },
+            {
+                "stdin": "1 0\n",
+                "stdout": "1"
+            },
+            {
+                "stdin": "4 3\n1 2\n3 4\n2 3",
+                "stdout": "1 2 3 4"
+            },
+            {
+                "stdin": "2 1\n2 1",
+                "stdout": "2 1"
+            },
+            {
+                "stdin": "5 4\n1 2\n1 3\n3 4\n2 4",
+                "stdout": "1 2 3 4 5"
+            },
+            {
+                "stdin": "3 2\n2 3\n1 2",
+                "stdout": "1 2 3"
+            },
+            {
+                "stdin": "4 4\n1 2\n2 3\n3 4\n4 2",
+                "stdout": "Cycle"
+            },
+            {
+                "stdin": "3 1\n2 1",
+                "stdout": "2 1 3"
+            },
+            {
+                "stdin": "2 2\n1 2\n1 2",
+                "stdout": "Cycle"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "level": "hard",
+        "title": "Knapsack 0/1",
+        "description": "Given n and capacity W, and n items with weight and value, print maximum total value that fits into W.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "3 50\n10 60\n20 100\n30 120",
+                "stdout": "220"
+            },
+            {
+                "stdin": "1 10\n5 100",
+                "stdout": "100"
+            },
+            {
+                "stdin": "2 5\n3 10\n3 20",
+                "stdout": "0"
+            },
+            {
+                "stdin": "3 6\n1 10\n2 20\n3 30",
+                "stdout": "60"
+            },
+            {
+                "stdin": "4 7\n1 1\n3 4\n4 5\n5 7",
+                "stdout": "6"
+            },
+            {
+                "stdin": "3 100\n50 60\n50 60\n50 60",
+                "stdout": "120"
+            },
+            {
+                "stdin": "2 3\n1 10\n2 20",
+                "stdout": "30"
+            },
+            {
+                "stdin": "3 50\n10 60\n40 200\n20 90",
+                "stdout": "290"
+            },
+            {
+                "stdin": "3 10\n6 30\n3 14\n4 16",
+                "stdout": "30"
+            },
+            {
+                "stdin": "5 15\n3 10\n4 20\n5 30\n6 40\n2 5",
+                "stdout": "60"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "level": "hard",
+        "title": "Minimum Spanning Tree (Kruskal)",
+        "description": "Given n m and edges u v w, print total weight of MST. If not connected print \"Impossible\".",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "3 3\n1 2 1\n2 3 2\n1 3 3",
+                "stdout": "3"
+            },
+            {
+                "stdin": "4 2\n1 2 1\n3 4 1",
+                "stdout": "Impossible"
+            },
+            {
+                "stdin": "1 0\n",
+                "stdout": "0"
+            },
+            {
+                "stdin": "2 1\n1 2 5",
+                "stdout": "5"
+            },
+            {
+                "stdin": "3 2\n1 2 1\n2 3 1",
+                "stdout": "2"
+            },
+            {
+                "stdin": "4 5\n1 2 1\n2 3 2\n3 4 3\n1 3 4\n2 4 5",
+                "stdout": "6"
+            },
+            {
+                "stdin": "3 3\n1 2 5\n2 3 6\n1 3 2",
+                "stdout": "7"
+            },
+            {
+                "stdin": "5 7\n1 2 1\n2 3 1\n3 4 1\n4 5 1\n1 3 2\n2 4 2\n3 5 2",
+                "stdout": "4"
+            },
+            {
+                "stdin": "3 1\n1 2 1",
+                "stdout": "Impossible"
+            },
+            {
+                "stdin": "2 0\n",
+                "stdout": "Impossible"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "level": "hard",
+        "title": "Word Ladder (BFS steps)",
+        "description": "Given begin word, end word and list size n then n words, find minimum number of transformations (change one letter) to reach end from begin; print steps count including begin and end, or 0 if impossible.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "hit\ncog\n6\nhot\ndot\ndog\nlot\nlog\ncog",
+                "stdout": "5"
+            },
+            {
+                "stdin": "hit\nhit\n0\n",
+                "stdout": "1"
+            },
+            {
+                "stdin": "a\nb\n2\nb\nc",
+                "stdout": "2"
+            },
+            {
+                "stdin": "hit\ncog\n5\nhot\ndot\ndog\nlot\nlog",
+                "stdout": "0"
+            },
+            {
+                "stdin": "cat\ndog\n6\ncot\ncog\ndog\ndat\ndog\ndot",
+                "stdout": "3"
+            },
+            {
+                "stdin": "hit\ncog\n3\nhot\nhog\ncog",
+                "stdout": "4"
+            },
+            {
+                "stdin": "abc\nabd\n1\nabd",
+                "stdout": "2"
+            },
+            {
+                "stdin": "aaa\nbbb\n2\naab\nabb",
+                "stdout": "0"
+            },
+            {
+                "stdin": "kiss\ntoss\n3\nkess\nkoss\ntoss",
+                "stdout": "3"
+            },
+            {
+                "stdin": "a\nc\n3\nb\nc\nd",
+                "stdout": "2"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "level": "hard",
+        "title": "Segment Tree Range Sum",
+        "description": "Implement point update and range sum queries. Input: n q then n numbers, then q lines either '1 idx val' (update index idx to val) or '2 l r' (query sum l..r). Print result for each query on newline.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "5 4\n1 2 3 4 5\n2 1 5\n1 3 10\n2 2 4\n2 3 3",
+                "stdout": "15\n16\n10"
+            },
+            {
+                "stdin": "1 1\n5\n2 1 1",
+                "stdout": "5"
+            },
+            {
+                "stdin": "3 3\n1 2 3\n2 2 3\n1 1 10\n2 1 1",
+                "stdout": "5\n10"
+            },
+            {
+                "stdin": "4 3\n1 1 1 1\n2 1 4\n1 4 5\n2 3 4",
+                "stdout": "4\n6"
+            },
+            {
+                "stdin": "3 2\n5 5 5\n2 1 3\n2 2 2",
+                "stdout": "15\n5"
+            },
+            {
+                "stdin": "2 3\n1 2\n2 1 2\n1 2 5\n2 2 2",
+                "stdout": "3\n5"
+            },
+            {
+                "stdin": "5 1\n1 2 3 4 5\n2 3 5",
+                "stdout": "12"
+            },
+            {
+                "stdin": "3 3\n1 2 3\n1 2 10\n2 1 2\n2 2 3",
+                "stdout": "3\n12"
+            },
+            {
+                "stdin": "4 2\n2 2 2 2\n2 1 4\n1 1 10",
+                "stdout": "8\n"
+            },
+            {
+                "stdin": "3 3\n0 0 0\n1 2 5\n2 1 3\n2 2 2",
+                "stdout": "0\n5\n5"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "level": "hard",
+        "title": "Maximum Flow (Edmonds-Karp)",
+        "description": "Given n m and directed edges u v capacity, source s and sink t, compute max flow from s to t.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "4 5\n1 2 100\n1 3 100\n2 3 1\n2 4 100\n3 4 100\n1 4",
+                "stdout": "200"
+            },
+            {
+                "stdin": "2 1\n1 2 5\n1 2",
+                "stdout": "5"
+            },
+            {
+                "stdin": "3 3\n1 2 3\n2 3 4\n1 3 2\n1 3",
+                "stdout": "5"
+            },
+            {
+                "stdin": "4 2\n1 2 10\n3 4 5\n1 4",
+                "stdout": "0"
+            },
+            {
+                "stdin": "3 3\n1 2 2\n1 3 1\n2 3 1\n1 3",
+                "stdout": "2"
+            },
+            {
+                "stdin": "4 5\n1 2 10\n2 4 5\n1 3 5\n3 4 10\n2 3 2\n1 4",
+                "stdout": "15"
+            },
+            {
+                "stdin": "3 2\n1 2 100\n2 3 100\n1 3",
+                "stdout": "100"
+            },
+            {
+                "stdin": "4 3\n1 2 5\n2 3 5\n3 4 5\n1 4",
+                "stdout": "5"
+            },
+            {
+                "stdin": "3 1\n1 3 7\n1 3",
+                "stdout": "7"
+            },
+            {
+                "stdin": "5 6\n1 2 10\n1 3 5\n2 3 15\n2 4 10\n3 5 10\n4 5 10\n1 5",
+                "stdout": "15"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "level": "hard",
+        "title": "Suffix Array - Distinct Substrings",
+        "description": "Given a string, compute the number of distinct substrings.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "abab",
+                "stdout": "7"
+            },
+            {
+                "stdin": "aaa",
+                "stdout": "6"
+            },
+            {
+                "stdin": "a",
+                "stdout": "1"
+            },
+            {
+                "stdin": "ababa",
+                "stdout": "12"
+            },
+            {
+                "stdin": "abc",
+                "stdout": "6"
+            },
+            {
+                "stdin": "aaaa",
+                "stdout": "10"
+            },
+            {
+                "stdin": "abcd",
+                "stdout": "10"
+            },
+            {
+                "stdin": "ababab",
+                "stdout": "21"
+            },
+            {
+                "stdin": "aba",
+                "stdout": "5"
+            },
+            {
+                "stdin": "aaab",
+                "stdout": "10"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "level": "hard",
+        "title": "2-SAT Satisfiable",
+        "description": "Given n variables m clauses each clause (a b) in form (x or y) where literals may be negated (prefixed by -), determine satisfiable (Yes/No). Variables numbered 1..n.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "2 2\n1 2\n-1 -2",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "1 2\n1 1\n-1 -1",
+                "stdout": "No"
+            },
+            {
+                "stdin": "2 1\n1 -2",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "3 3\n1 2\n-1 3\n-3 -2",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "1 1\n1 1",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "2 2\n1 -1\n2 -2",
+                "stdout": "No"
+            },
+            {
+                "stdin": "2 2\n1 2\n-1 2",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "3 3\n1 2\n2 3\n-3 -1",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "2 2\n1 2\n-1 -2",
+                "stdout": "No"
+            },
+            {
+                "stdin": "1 1\n-1 -1",
+                "stdout": "No"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "level": "hard",
+        "title": "Convex Hull Perimeter",
+        "description": "Given n points, compute perimeter of convex hull (floating with 2 decimals).",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "4\n0 0\n0 1\n1 1\n1 0",
+                "stdout": "4.00"
+            },
+            {
+                "stdin": "3\n0 0\n1 0\n0 1",
+                "stdout": "3.41"
+            },
+            {
+                "stdin": "1\n0 0",
+                "stdout": "0.00"
+            },
+            {
+                "stdin": "2\n0 0\n1 0",
+                "stdout": "2.00"
+            },
+            {
+                "stdin": "5\n0 0\n2 0\n1 1\n2 2\n0 2",
+                "stdout": "8.65"
+            },
+            {
+                "stdin": "4\n0 0\n1 1\n2 2\n3 3",
+                "stdout": "6.00"
+            },
+            {
+                "stdin": "6\n0 0\n0 1\n1 2\n2 1\n2 0\n1 -1",
+                "stdout": "8.00"
+            },
+            {
+                "stdin": "4\n-1 -1\n-1 1\n1 1\n1 -1",
+                "stdout": "8.00"
+            },
+            {
+                "stdin": "5\n0 0\n1 0\n1 1\n0 1\n0.5 0.5",
+                "stdout": "4.00"
+            },
+            {
+                "stdin": "3\n0 0\n2 0\n1 1",
+                "stdout": "4.83"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "level": "hard",
+        "title": "Advanced Scheduling (Weighted Interval Scheduling)",
+        "description": "Given tasks with start, end, profit, choose non-overlapping tasks to maximize profit. Print max profit.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "3\n1 3 50\n2 5 20\n4 6 70",
+                "stdout": "120"
+            },
+            {
+                "stdin": "1\n0 10 100",
+                "stdout": "100"
+            },
+            {
+                "stdin": "2\n1 2 10\n2 3 20",
+                "stdout": "30"
+            },
+            {
+                "stdin": "3\n1 4 20\n2 3 50\n3 5 10",
+                "stdout": "60"
+            },
+            {
+                "stdin": "4\n1 2 10\n2 3 20\n3 4 30\n4 5 40",
+                "stdout": "100"
+            },
+            {
+                "stdin": "3\n1 3 20\n3 5 30\n2 4 25",
+                "stdout": "50"
+            },
+            {
+                "stdin": "3\n0 2 10\n1 3 20\n2 4 15",
+                "stdout": "35"
+            },
+            {
+                "stdin": "2\n1 5 100\n2 3 50",
+                "stdout": "100"
+            },
+            {
+                "stdin": "3\n1 10 5\n2 3 100\n4 5 100",
+                "stdout": "205"
+            },
+            {
+                "stdin": "4\n1 3 5\n2 5 50\n4 6 60\n6 7 10",
+                "stdout": "120"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "level": "hard",
+        "title": "Top-k Frequent Elements (heap/DS)",
+        "description": "Given n and list of n integers, print k most frequent elements sorted by frequency desc, then value asc when tie.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "7\n1 1 1 2 2 3 4\n2",
+                "stdout": "1 2"
+            },
+            {
+                "stdin": "5\n5 5 4 6 6\n1",
+                "stdout": "5"
+            },
+            {
+                "stdin": "6\n1 2 3 4 5 6\n3",
+                "stdout": "1 2 3"
+            },
+            {
+                "stdin": "4\n2 2 2 2\n2",
+                "stdout": "2"
+            },
+            {
+                "stdin": "6\n1 2 2 3 3 3\n2",
+                "stdout": "3 2"
+            },
+            {
+                "stdin": "5\n1 2 2 3 3\n2",
+                "stdout": "2 3"
+            },
+            {
+                "stdin": "3\n1 1 2\n1",
+                "stdout": "1"
+            },
+            {
+                "stdin": "8\n4 4 4 3 3 2 2 1\n2",
+                "stdout": "4 2"
+            },
+            {
+                "stdin": "6\n10 9 9 8 8 8\n2",
+                "stdout": "8 9"
+            },
+            {
+                "stdin": "5\n1 2 2 3 1\n2",
+                "stdout": "1 2"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "level": "hard",
+        "title": "Eulerian Path Check",
+        "description": "Given n m and undirected edges, determine if graph has Eulerian trail/path. Print \"Trail\", \"Circuit\", or \"None\".",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "3 3\n1 2\n2 3\n3 1",
+                "stdout": "Circuit"
+            },
+            {
+                "stdin": "3 2\n1 2\n2 3",
+                "stdout": "Trail"
+            },
+            {
+                "stdin": "2 0\n",
+                "stdout": "None"
+            },
+            {
+                "stdin": "4 3\n1 2\n2 3\n3 4",
+                "stdout": "Trail"
+            },
+            {
+                "stdin": "4 4\n1 2\n2 3\n3 4\n4 1",
+                "stdout": "Circuit"
+            },
+            {
+                "stdin": "3 1\n1 2",
+                "stdout": "None"
+            },
+            {
+                "stdin": "5 4\n1 2\n2 3\n3 4\n4 5",
+                "stdout": "Trail"
+            },
+            {
+                "stdin": "3 3\n1 2\n2 3\n1 3",
+                "stdout": "Circuit"
+            },
+            {
+                "stdin": "4 1\n1 2",
+                "stdout": "None"
+            },
+            {
+                "stdin": "1 0\n",
+                "stdout": "Circuit"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "level": "hard",
+        "title": "Regex Pattern Matching (advanced)",
+        "description": "Given pattern and text, implement simple regex with '.' matching any char and '*' matching zero or more of previous char; print Yes if whole text matches pattern, else No.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "a*b\naaab",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": ".*\nabc",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "c*a*b\naab",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "a*b\nb",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "a*b\nab",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "a*b\nac",
+                "stdout": "No"
+            },
+            {
+                "stdin": "ab*c\nac",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "ab*c\nabc",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "ab*c\nabbbbbc",
+                "stdout": "Yes"
+            },
+            {
+                "stdin": "ab*c\nabbd",
+                "stdout": "No"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "level": "hard",
+        "title": "Integer Partition Count (DP)",
+        "description": "Given n (n<=1000), compute number of ways to write n as sum of positive integers (order does not matter). Print the count modulo 1e9+7.",
+        "starterCode": {
+            "python": "import sys, math\n\n# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\ndata = input()\n\n# Write an answer using print as below\nprint(\"write your output here\")",
+            "javascript": "/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nconst fs = require('fs');\nconst data = fs.readFileSync(0, 'utf-8').trim();\n\n// Write an answer using console.log()\n// To debug: console.error('Debug messages...');\n\nconsole.log('write your output here');",
+            "java": "import java.util.*;\nimport java.io.*;\nimport java.math.*;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\nclass Main {\n\n    public static void main(String args[]) {\n        Scanner in = new Scanner(System.in);\n        if (in.hasNextLine()) {\n            String data = in.nextLine();\n        }\n\n        // Write an answer using System.out.println()\n        // To debug: System.err.println(\"Debug messages...\");\n\n        System.out.println(\"write your output here\");\n    }\n}",
+            "c": "#include <stdlib.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    char data[4096];\n    // Reading one line. Adjust if needed.\n    if (fgets(data, 4096, stdin) != NULL) {\n        // data contains the line\n    }\n\n    // Write an answer using printf()\n    // To debug: fprintf(stderr, \"Debug messages...\\n\");\n\n    printf(\"write your output here\\n\");\n\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\n/**\n * Auto-generated code below aims at helping you parse\n * the standard input according to the problem statement.\n **/\n\nint main() {\n    string data;\n    getline(cin, data);\n\n    // Write an answer using cout. DON'T FORGET THE \"<< endl\"\n    // To debug: cerr << \"Debug messages...\" << endl;\n\n    cout << \"write your output here\" << endl;\n}",
+            "lua": "-- Auto-generated code below aims at helping you parse\n-- the standard input according to the problem statement.\n\nlocal data = io.read(\"*l\")\n\n-- Write an answer using print()\n-- To debug: io.stderr:write(\"Debug message\\n\")\n\nprint(\"write your output here\")",
+            "r": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ninput_data <- readLines(con = \"stdin\", n = 1)\n\n# Write an answer using cat() or print()\n# To debug: message(\"Debug message\")\n\ncat(\"write your output here\\n\")",
+            "ruby": "# Auto-generated code below aims at helping you parse\n# the standard input according to the problem statement.\n\ndata = gets.chomp\n\n# Write an answer using puts\n# To debug: STDERR.puts \"Debug messages...\"\n\nputs \"write your output here\" ",
+            "php": "<?php\n// Auto-generated code below aims at helping you parse\n// the standard input according to the problem statement.\n\n$data = stream_get_line(STDIN, 1024, \"\\n\");\n\n// Write an answer using echo\n// To debug: error_log('Debug messages...');\n\necho \"write your output here\\n\";\n?>"
+        },
+        "testCases": [
+            {
+                "stdin": "1",
+                "stdout": "1"
+            },
+            {
+                "stdin": "2",
+                "stdout": "2"
+            },
+            {
+                "stdin": "3",
+                "stdout": "3"
+            },
+            {
+                "stdin": "4",
+                "stdout": "5"
+            },
+            {
+                "stdin": "5",
+                "stdout": "7"
+            },
+            {
+                "stdin": "6",
+                "stdout": "11"
+            },
+            {
+                "stdin": "7",
+                "stdout": "15"
+            },
+            {
+                "stdin": "8",
+                "stdout": "22"
+            },
+            {
+                "stdin": "9",
+                "stdout": "30"
+            },
+            {
+                "stdin": "10",
+                "stdout": "42"
+            }
+        ]
+    }
+]

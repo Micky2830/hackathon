@@ -220,3 +220,67 @@
     color: #0d6efd;
     margin: 20px 0;
 }
+
+/* Tablet Responsive Styles */
+@media (max-width: 1024px) {
+    .challenge-sidebar {
+        width: 200px;
+    }
+
+    .editor-container {
+        min-height: 250px;
+    }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .challenge-container {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+        overflow: auto;
+    }
+
+    .challenge-sidebar {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        border-right: none;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .challenge-main {
+        height: auto;
+        padding: 15px;
+    }
+
+    .results-container {
+        flex-direction: column;
+    }
+
+    .output-matching,
+    .code-capture {
+        width: 100%;
+    }
+
+    .buttons-row {
+        flex-direction: column;
+    }
+
+    .buttons-row button {
+        width: 100%;
+    }
+
+    .start-screen {
+        padding: 20px;
+    }
+
+    .start-screen h1 {
+        font-size: 1.8rem;
+    }
+
+    .language-selection select {
+        width: 100%;
+        min-width: unset;
+    }
+}

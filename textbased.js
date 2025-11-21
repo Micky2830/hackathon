@@ -2,7 +2,7 @@
 let challenges = [];
 
 // Fetch challenges from JSON file
-fetch('questions.json')
+fetch('real.json')
     .then(response => response.json())
     .then(data => {
         challenges = data;
@@ -344,7 +344,7 @@ window.addEventListener('message', function (e) {
             currentTestIndex++;
             setTimeout(() => {
                 runNextTestCase(currentCode);
-            }, 1000);
+            }, 100);
 
 
         } else {
