@@ -3,7 +3,19 @@
         "id": 1,
         "title": "Hello World",
         "description": "Write a program that prints 'Hello, World!' to the console.",
-        "starterCode": "print(\"Hello, World!\")",
+        "starterCode": {
+            "python": "print(\"Hello, World!\")",
+            "javascript": "console.log(\"Hello, World!\");",
+            "java": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}",
+            "c": "#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}",
+            "cpp": "#include <iostream>\n\nint main() {\n    std::cout << \"Hello, World!\" << std::endl;\n    return 0;\n}",
+            "csharp": "using System;\n\npublic class HelloWorld\n{\n    public static void Main(string[] args)\n    {\n        Console.WriteLine(\"Hello, World!\");\n    }\n}",
+            "nodejs": "console.log(\"Hello, World!\");",
+            "lua": "print(\"Hello, World!\")",
+            "r": "cat(\"Hello, World!\\n\")",
+            "ruby": "puts \"Hello, World!\"",
+            "php": "<?php\necho \"Hello, World!\";\n?>"
+        },
         "testCases": [
             {
                 "stdin": "",
@@ -15,7 +27,19 @@
         "id": 2,
         "title": "Sum of Two Numbers",
         "description": "Write a function that takes two numbers as input and returns their sum.",
-        "starterCode": "def add_numbers(a, b):\n    return a + b\n\nline = input().strip().split()\na = int(line[0])\nb = int(line[1])\nprint(add_numbers(a, b))",
+        "starterCode": {
+            "python": "def add_numbers(a, b):\n    return a + b\n\nline = input().strip().split()\na = int(line[0])\nb = int(line[1])\nprint(add_numbers(a, b))",
+            "javascript": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nrl.on('line', (line) => {\n  const [a, b] = line.trim().split(' ').map(Number);\n  console.log(a + b);\n  rl.close();\n});",
+            "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        if (scanner.hasNext()) {\n            int a = scanner.nextInt();\n            int b = scanner.nextInt();\n            System.out.println(a + b);\n        }\n    }\n}",
+            "c": "#include <stdio.h>\n\nint main() {\n    int a, b;\n    if (scanf(\"%d %d\", &a, &b) == 2) {\n        printf(\"%d\\n\", a + b);\n    }\n    return 0;\n}",
+            "cpp": "#include <iostream>\n\nint main() {\n    int a, b;\n    if (std::cin >> a >> b) {\n        std::cout << a + b << std::endl;\n    }\n    return 0;\n}",
+            "csharp": "using System;\n\npublic class HelloWorld\n{\n    public static void Main(string[] args)\n    {\n        string line = Console.ReadLine();\n        if (line != null) {\n            string[] parts = line.Split(' ');\n            int a = int.Parse(parts[0]);\n            int b = int.Parse(parts[1]);\n            Console.WriteLine(a + b);\n        }\n    }\n}",
+            "nodejs": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nrl.on('line', (line) => {\n  const [a, b] = line.trim().split(' ').map(Number);\n  console.log(a + b);\n  rl.close();\n});",
+            "lua": "local a, b = io.read(\"*n\", \"*n\")\nprint(a + b)",
+            "r": "input <- file('stdin', 'r')\nline <- readLines(input, n=1)\nparts <- as.numeric(strsplit(line, \" \")[[1]])\ncat(parts[1] + parts[2], \"\\n\")",
+            "ruby": "a, b = gets.split.map(&:to_i)\nputs a + b",
+            "php": "<?php\nfscanf(STDIN, \"%d %d\", $a, $b);\necho $a + $b;\n?>"
+        },
         "testCases": [
             {
                 "stdin": "3 5",
@@ -35,7 +59,19 @@
         "id": 3,
         "title": "Even or Odd",
         "description": "Write a program that determines if a number is even or odd.",
-        "starterCode": "num = int(input())\nif num % 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")",
+        "starterCode": {
+            "python": "num = int(input())\nif num % 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")",
+            "javascript": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nrl.on('line', (line) => {\n  const num = parseInt(line);\n  console.log(num % 2 === 0 ? 'Even' : 'Odd');\n  rl.close();\n});",
+            "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        if (scanner.hasNext()) {\n            int num = scanner.nextInt();\n            System.out.println(num % 2 == 0 ? \"Even\" : \"Odd\");\n        }\n    }\n}",
+            "c": "#include <stdio.h>\n\nint main() {\n    int num;\n    if (scanf(\"%d\", &num) == 1) {\n        printf(\"%s\\n\", num % 2 == 0 ? \"Even\" : \"Odd\");\n    }\n    return 0;\n}",
+            "cpp": "#include <iostream>\n\nint main() {\n    int num;\n    if (std::cin >> num) {\n        std::cout << (num % 2 == 0 ? \"Even\" : \"Odd\") << std::endl;\n    }\n    return 0;\n}",
+            "csharp": "using System;\n\npublic class HelloWorld\n{\n    public static void Main(string[] args)\n    {\n        string line = Console.ReadLine();\n        if (line != null) {\n            int num = int.Parse(line);\n            Console.WriteLine(num % 2 == 0 ? \"Even\" : \"Odd\");\n        }\n    }\n}",
+            "nodejs": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nrl.on('line', (line) => {\n  const num = parseInt(line);\n  console.log(num % 2 === 0 ? 'Even' : 'Odd');\n  rl.close();\n});",
+            "lua": "local num = io.read(\"*n\")\nif num % 2 == 0 then\n    print(\"Even\")\nelse\n    print(\"Odd\")\nend",
+            "r": "input <- file('stdin', 'r')\nline <- readLines(input, n=1)\nnum <- as.numeric(line)\nif (num %% 2 == 0) {\n    cat(\"Even\\n\")\n} else {\n    cat(\"Odd\\n\")\n}",
+            "ruby": "num = gets.to_i\nputs num.even? ? \"Even\" : \"Odd\"",
+            "php": "<?php\nfscanf(STDIN, \"%d\", $num);\necho ($num % 2 == 0) ? \"Even\" : \"Odd\";\n?>"
+        },
         "testCases": [
             {
                 "stdin": "4",
@@ -59,7 +95,19 @@
         "id": 4,
         "title": "Factorial",
         "description": "Write a function to calculate the factorial of a number.",
-        "starterCode": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n\nn = int(input())\nprint(factorial(n))",
+        "starterCode": {
+            "python": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n\nn = int(input())\nprint(factorial(n))",
+            "javascript": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nfunction factorial(n) {\n  if (n <= 1) return 1;\n  return n * factorial(n - 1);\n}\n\nrl.on('line', (line) => {\n  const n = parseInt(line);\n  console.log(factorial(n));\n  rl.close();\n});",
+            "java": "import java.util.Scanner;\n\npublic class Main {\n    public static long factorial(int n) {\n        if (n <= 1) return 1;\n        return n * factorial(n - 1);\n    }\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        if (scanner.hasNext()) {\n            int n = scanner.nextInt();\n            System.out.println(factorial(n));\n        }\n    }\n}",
+            "c": "#include <stdio.h>\n\nlong long factorial(int n) {\n    if (n <= 1) return 1;\n    return n * factorial(n - 1);\n}\n\nint main() {\n    int n;\n    if (scanf(\"%d\", &n) == 1) {\n        printf(\"%lld\\n\", factorial(n));\n    }\n    return 0;\n}",
+            "cpp": "#include <iostream>\n\nlong long factorial(int n) {\n    if (n <= 1) return 1;\n    return n * factorial(n - 1);\n}\n\nint main() {\n    int n;\n    if (std::cin >> n) {\n        std::cout << factorial(n) << std::endl;\n    }\n    return 0;\n}",
+            "csharp": "using System;\n\npublic class HelloWorld\n{\n    public static long Factorial(int n) {\n        if (n <= 1) return 1;\n        return n * Factorial(n - 1);\n    }\n\n    public static void Main(string[] args)\n    {\n        string line = Console.ReadLine();\n        if (line != null) {\n            int n = int.Parse(line);\n            Console.WriteLine(Factorial(n));\n        }\n    }\n}",
+            "nodejs": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nfunction factorial(n) {\n  if (n <= 1) return 1;\n  return n * factorial(n - 1);\n}\n\nrl.on('line', (line) => {\n  const n = parseInt(line);\n  console.log(factorial(n));\n  rl.close();\n});",
+            "lua": "function factorial(n)\n    if n <= 1 then return 1 end\n    return n * factorial(n - 1)\nend\n\nlocal n = io.read(\"*n\")\nprint(factorial(n))",
+            "r": "factorial_func <- function(n) {\n    if (n <= 1) return(1)\n    return(n * factorial_func(n - 1))\n}\n\ninput <- file('stdin', 'r')\nline <- readLines(input, n=1)\nn <- as.numeric(line)\ncat(factorial_func(n), \"\\n\")",
+            "ruby": "def factorial(n)\n  return 1 if n <= 1\n  n * factorial(n - 1)\nend\n\nn = gets.to_i\nputs factorial(n)",
+            "php": "<?php\nfunction factorial($n) {\n    if ($n <= 1) return 1;\n    return $n * factorial($n - 1);\n}\n\nfscanf(STDIN, \"%d\", $n);\necho factorial($n);\n?>"
+        },
         "testCases": [
             {
                 "stdin": "5",
@@ -79,7 +127,19 @@
         "id": 5,
         "title": "Reverse String",
         "description": "Write a program that reverses a given string.",
-        "starterCode": "text = input()\nprint(text[::-1])",
+        "starterCode": {
+            "python": "text = input()\nprint(text[::-1])",
+            "javascript": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nrl.on('line', (line) => {\n  console.log(line.split('').reverse().join(''));\n  rl.close();\n});",
+            "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        if (scanner.hasNextLine()) {\n            String text = scanner.nextLine();\n            System.out.println(new StringBuilder(text).reverse().toString());\n        }\n    }\n}",
+            "c": "#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char str[1000];\n    if (scanf(\"%[^\\n]\", str) == 1) {\n        int len = strlen(str);\n        for (int i = len - 1; i >= 0; i--) {\n            printf(\"%c\", str[i]);\n        }\n        printf(\"\\n\");\n    }\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <algorithm>\n\nint main() {\n    std::string text;\n    if (std::getline(std::cin, text)) {\n        std::reverse(text.begin(), text.end());\n        std::cout << text << std::endl;\n    }\n    return 0;\n}",
+            "csharp": "using System;\n\npublic class HelloWorld\n{\n    public static void Main(string[] args)\n    {\n        string line = Console.ReadLine();\n        if (line != null) {\n            char[] charArray = line.ToCharArray();\n            Array.Reverse(charArray);\n            Console.WriteLine(new string(charArray));\n        }\n    }\n}",
+            "nodejs": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nrl.on('line', (line) => {\n  console.log(line.split('').reverse().join(''));\n  rl.close();\n});",
+            "lua": "local text = io.read(\"*l\")\nprint(string.reverse(text))",
+            "r": "input <- file('stdin', 'r')\nline <- readLines(input, n=1)\ncat(paste(rev(strsplit(line, NULL)[[1]]), collapse=\"\"), \"\\n\")",
+            "ruby": "puts gets.chomp.reverse",
+            "php": "<?php\n$text = fgets(STDIN);\necho strrev(trim($text));\n?>"
+        },
         "testCases": [
             {
                 "stdin": "hello",
@@ -99,7 +159,19 @@
         "id": 6,
         "title": "Find Maximum",
         "description": "Write a function that finds the maximum value in a list of numbers.",
-        "starterCode": "numbers = list(map(int, input().split()))\nprint(max(numbers))",
+        "starterCode": {
+            "python": "numbers = list(map(int, input().split()))\nprint(max(numbers))",
+            "javascript": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nrl.on('line', (line) => {\n  const numbers = line.trim().split(' ').map(Number);\n  console.log(Math.max(...numbers));\n  rl.close();\n});",
+            "java": "import java.util.Scanner;\nimport java.util.Arrays;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        if (scanner.hasNextLine()) {\n            String[] parts = scanner.nextLine().split(\" \");\n            int maxVal = Integer.MIN_VALUE;\n            for (String part : parts) {\n                maxVal = Math.max(maxVal, Integer.parseInt(part));\n            }\n            System.out.println(maxVal);\n        }\n    }\n}",
+            "c": "#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    int val, maxVal = -2147483648;\n    while (scanf(\"%d\", &val) == 1) {\n        if (val > maxVal) maxVal = val;\n        char c = getchar();\n        if (c == '\\n') break;\n    }\n    printf(\"%d\\n\", maxVal);\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <vector>\n#include <algorithm>\n#include <sstream>\n\nint main() {\n    std::string line;\n    if (std::getline(std::cin, line)) {\n        std::stringstream ss(line);\n        int val, maxVal = -2147483648;\n        while (ss >> val) {\n            if (val > maxVal) maxVal = val;\n        }\n        std::cout << maxVal << std::endl;\n    }\n    return 0;\n}",
+            "csharp": "using System;\nusing System.Linq;\n\npublic class HelloWorld\n{\n    public static void Main(string[] args)\n    {\n        string line = Console.ReadLine();\n        if (line != null) {\n            int[] numbers = line.Split(' ').Select(int.Parse).ToArray();\n            Console.WriteLine(numbers.Max());\n        }\n    }\n}",
+            "nodejs": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nrl.on('line', (line) => {\n  const numbers = line.trim().split(' ').map(Number);\n  console.log(Math.max(...numbers));\n  rl.close();\n});",
+            "lua": "local line = io.read(\"*l\")\nlocal maxVal = nil\nfor num in line:gmatch(\"%S+\") do\n    num = tonumber(num)\n    if maxVal == nil or num > maxVal then\n        maxVal = num\n    end\nend\nprint(maxVal)",
+            "r": "input <- file('stdin', 'r')\nline <- readLines(input, n=1)\nnumbers <- as.numeric(strsplit(line, \" \")[[1]])\ncat(max(numbers), \"\\n\")",
+            "ruby": "puts gets.split.map(&:to_i).max",
+            "php": "<?php\n$line = fgets(STDIN);\n$numbers = array_map('intval', explode(' ', trim($line)));\necho max($numbers);\n?>"
+        },
         "testCases": [
             {
                 "stdin": "1 5 3 9 2",
@@ -119,7 +191,19 @@
         "id": 7,
         "title": "Palindrome Check",
         "description": "Write a program that checks if a string is a palindrome.",
-        "starterCode": "text = input().lower()\nif text == text[::-1]:\n    print(\"Palindrome\")\nelse:\n    print(\"Not Palindrome\")",
+        "starterCode": {
+            "python": "text = input().lower()\nif text == text[::-1]:\n    print(\"Palindrome\")\nelse:\n    print(\"Not Palindrome\")",
+            "javascript": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nrl.on('line', (line) => {\n  const text = line.trim().toLowerCase();\n  const reversed = text.split('').reverse().join('');\n  console.log(text === reversed ? 'Palindrome' : 'Not Palindrome');\n  rl.close();\n});",
+            "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        if (scanner.hasNextLine()) {\n            String text = scanner.nextLine().toLowerCase();\n            String reversed = new StringBuilder(text).reverse().toString();\n            System.out.println(text.equals(reversed) ? \"Palindrome\" : \"Not Palindrome\");\n        }\n    }\n}",
+            "c": "#include <stdio.h>\n#include <string.h>\n#include <ctype.h>\n\nint main() {\n    char str[1000];\n    if (scanf(\"%s\", str) == 1) {\n        int len = strlen(str);\n        int isPalindrome = 1;\n        for (int i = 0; i < len / 2; i++) {\n            if (tolower(str[i]) != tolower(str[len - 1 - i])) {\n                isPalindrome = 0;\n                break;\n            }\n        }\n        printf(\"%s\\n\", isPalindrome ? \"Palindrome\" : \"Not Palindrome\");\n    }\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n#include <algorithm>\n#include <cctype>\n\nint main() {\n    std::string text;\n    if (std::cin >> text) {\n        std::string original = text;\n        std::transform(text.begin(), text.end(), text.begin(), ::tolower);\n        std::string reversed = text;\n        std::reverse(reversed.begin(), reversed.end());\n        std::cout << (text == reversed ? \"Palindrome\" : \"Not Palindrome\") << std::endl;\n    }\n    return 0;\n}",
+            "csharp": "using System;\n\npublic class HelloWorld\n{\n    public static void Main(string[] args)\n    {\n        string line = Console.ReadLine();\n        if (line != null) {\n            string text = line.ToLower();\n            char[] charArray = text.ToCharArray();\n            Array.Reverse(charArray);\n            string reversed = new string(charArray);\n            Console.WriteLine(text == reversed ? \"Palindrome\" : \"Not Palindrome\");\n        }\n    }\n}",
+            "nodejs": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nrl.on('line', (line) => {\n  const text = line.trim().toLowerCase();\n  const reversed = text.split('').reverse().join('');\n  console.log(text === reversed ? 'Palindrome' : 'Not Palindrome');\n  rl.close();\n});",
+            "lua": "local text = io.read(\"*l\"):lower()\nif text == string.reverse(text) then\n    print(\"Palindrome\")\nelse\n    print(\"Not Palindrome\")\nend",
+            "r": "input <- file('stdin', 'r')\nline <- readLines(input, n=1)\ntext <- tolower(line)\nreversed <- paste(rev(strsplit(text, NULL)[[1]]), collapse=\"\")\nif (text == reversed) {\n    cat(\"Palindrome\\n\")\n} else {\n    cat(\"Not Palindrome\\n\")\n}",
+            "ruby": "text = gets.chomp.downcase\nputs text == text.reverse ? \"Palindrome\" : \"Not Palindrome\"",
+            "php": "<?php\n$text = strtolower(trim(fgets(STDIN)));\necho ($text == strrev($text)) ? \"Palindrome\" : \"Not Palindrome\";\n?>"
+        },
         "testCases": [
             {
                 "stdin": "racecar",
@@ -139,7 +223,19 @@
         "id": 8,
         "title": "Fibonacci Sequence",
         "description": "Write a function that returns the nth Fibonacci number.",
-        "starterCode": "def fibonacci(n):\n    if n <= 1:\n        return n\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    return b\n\nn = int(input())\nprint(fibonacci(n))",
+        "starterCode": {
+            "python": "def fibonacci(n):\n    if n <= 1:\n        return n\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    return b\n\nn = int(input())\nprint(fibonacci(n))",
+            "javascript": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nfunction fibonacci(n) {\n  if (n <= 1) return n;\n  let a = 0, b = 1;\n  for (let i = 2; i <= n; i++) {\n    [a, b] = [b, a + b];\n  }\n  return b;\n}\n\nrl.on('line', (line) => {\n  const n = parseInt(line);\n  console.log(fibonacci(n));\n  rl.close();\n});",
+            "java": "import java.util.Scanner;\n\npublic class Main {\n    public static int fibonacci(int n) {\n        if (n <= 1) return n;\n        int a = 0, b = 1;\n        for (int i = 2; i <= n; i++) {\n            int temp = a + b;\n            a = b;\n            b = temp;\n        }\n        return b;\n    }\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        if (scanner.hasNext()) {\n            int n = scanner.nextInt();\n            System.out.println(fibonacci(n));\n        }\n    }\n}",
+            "c": "#include <stdio.h>\n\nint fibonacci(int n) {\n    if (n <= 1) return n;\n    int a = 0, b = 1;\n    for (int i = 2; i <= n; i++) {\n        int temp = a + b;\n        a = b;\n        b = temp;\n    }\n    return b;\n}\n\nint main() {\n    int n;\n    if (scanf(\"%d\", &n) == 1) {\n        printf(\"%d\\n\", fibonacci(n));\n    }\n    return 0;\n}",
+            "cpp": "#include <iostream>\n\nint fibonacci(int n) {\n    if (n <= 1) return n;\n    int a = 0, b = 1;\n    for (int i = 2; i <= n; i++) {\n        int temp = a + b;\n        a = b;\n        b = temp;\n    }\n    return b;\n}\n\nint main() {\n    int n;\n    if (std::cin >> n) {\n        std::cout << fibonacci(n) << std::endl;\n    }\n    return 0;\n}",
+            "csharp": "using System;\n\npublic class HelloWorld\n{\n    public static int Fibonacci(int n) {\n        if (n <= 1) return n;\n        int a = 0, b = 1;\n        for (int i = 2; i <= n; i++) {\n            int temp = a + b;\n            a = b;\n            b = temp;\n        }\n        return b;\n    }\n\n    public static void Main(string[] args)\n    {\n        string line = Console.ReadLine();\n        if (line != null) {\n            int n = int.Parse(line);\n            Console.WriteLine(Fibonacci(n));\n        }\n    }\n}",
+            "nodejs": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nfunction fibonacci(n) {\n  if (n <= 1) return n;\n  let a = 0, b = 1;\n  for (let i = 2; i <= n; i++) {\n    [a, b] = [b, a + b];\n  }\n  return b;\n}\n\nrl.on('line', (line) => {\n  const n = parseInt(line);\n  console.log(fibonacci(n));\n  rl.close();\n});",
+            "lua": "function fibonacci(n)\n    if n <= 1 then return n end\n    local a, b = 0, 1\n    for i = 2, n do\n        a, b = b, a + b\n    end\n    return b\nend\n\nlocal n = io.read(\"*n\")\nprint(fibonacci(n))",
+            "r": "fibonacci <- function(n) {\n    if (n <= 1) return(n)\n    a <- 0\n    b <- 1\n    for (i in 2:n) {\n        temp <- a + b\n        a <- b\n        b <- temp\n    }\n    return(b)\n}\n\ninput <- file('stdin', 'r')\nline <- readLines(input, n=1)\nn <- as.numeric(line)\ncat(fibonacci(n), \"\\n\")",
+            "ruby": "def fibonacci(n)\n  return n if n <= 1\n  a, b = 0, 1\n  (2..n).each { a, b = b, a + b }\n  b\nend\n\nn = gets.to_i\nputs fibonacci(n)",
+            "php": "<?php\nfunction fibonacci($n) {\n    if ($n <= 1) return $n;\n    $a = 0; $b = 1;\n    for ($i = 2; $i <= $n; $i++) {\n        $temp = $a + $b;\n        $a = $b;\n        $b = $temp;\n    }\n    return $b;\n}\n\nfscanf(STDIN, \"%d\", $n);\necho fibonacci($n);\n?>"
+        },
         "testCases": [
             {
                 "stdin": "0",
@@ -163,7 +259,19 @@
         "id": 9,
         "title": "Prime Check",
         "description": "Write a program that checks if a number is prime.",
-        "starterCode": "def is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nn = int(input())\nprint(\"Prime\" if is_prime(n) else \"Not Prime\")",
+        "starterCode": {
+            "python": "def is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nn = int(input())\nprint(\"Prime\" if is_prime(n) else \"Not Prime\")",
+            "javascript": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nfunction isPrime(n) {\n  if (n < 2) return false;\n  for (let i = 2; i <= Math.sqrt(n); i++) {\n    if (n % i === 0) return false;\n  }\n  return true;\n}\n\nrl.on('line', (line) => {\n  const n = parseInt(line);\n  console.log(isPrime(n) ? 'Prime' : 'Not Prime');\n  rl.close();\n});",
+            "java": "import java.util.Scanner;\n\npublic class Main {\n    public static boolean isPrime(int n) {\n        if (n < 2) return false;\n        for (int i = 2; i <= Math.sqrt(n); i++) {\n            if (n % i == 0) return false;\n        }\n        return true;\n    }\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        if (scanner.hasNext()) {\n            int n = scanner.nextInt();\n            System.out.println(isPrime(n) ? \"Prime\" : \"Not Prime\");\n        }\n    }\n}",
+            "c": "#include <stdio.h>\n#include <math.h>\n\nint isPrime(int n) {\n    if (n < 2) return 0;\n    for (int i = 2; i <= sqrt(n); i++) {\n        if (n % i == 0) return 0;\n    }\n    return 1;\n}\n\nint main() {\n    int n;\n    if (scanf(\"%d\", &n) == 1) {\n        printf(\"%s\\n\", isPrime(n) ? \"Prime\" : \"Not Prime\");\n    }\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <cmath>\n\nbool isPrime(int n) {\n    if (n < 2) return false;\n    for (int i = 2; i <= std::sqrt(n); i++) {\n        if (n % i == 0) return false;\n    }\n    return true;\n}\n\nint main() {\n    int n;\n    if (std::cin >> n) {\n        std::cout << (isPrime(n) ? \"Prime\" : \"Not Prime\") << std::endl;\n    }\n    return 0;\n}",
+            "csharp": "using System;\n\npublic class HelloWorld\n{\n    public static bool IsPrime(int n) {\n        if (n < 2) return false;\n        for (int i = 2; i <= Math.Sqrt(n); i++) {\n            if (n % i == 0) return false;\n        }\n        return true;\n    }\n\n    public static void Main(string[] args)\n    {\n        string line = Console.ReadLine();\n        if (line != null) {\n            int n = int.Parse(line);\n            Console.WriteLine(IsPrime(n) ? \"Prime\" : \"Not Prime\");\n        }\n    }\n}",
+            "nodejs": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nfunction isPrime(n) {\n  if (n < 2) return false;\n  for (let i = 2; i <= Math.sqrt(n); i++) {\n    if (n % i === 0) return false;\n  }\n  return true;\n}\n\nrl.on('line', (line) => {\n  const n = parseInt(line);\n  console.log(isPrime(n) ? 'Prime' : 'Not Prime');\n  rl.close();\n});",
+            "lua": "function isPrime(n)\n    if n < 2 then return false end\n    for i = 2, math.sqrt(n) do\n        if n % i == 0 then return false end\n    end\n    return true\nend\n\nlocal n = io.read(\"*n\")\nif isPrime(n) then\n    print(\"Prime\")\nelse\n    print(\"Not Prime\")\nend",
+            "r": "isPrime <- function(n) {\n    if (n < 2) return(FALSE)\n    for (i in 2:sqrt(n)) {\n        if (n %% i == 0) return(FALSE)\n    }\n    return(TRUE)\n}\n\ninput <- file('stdin', 'r')\nline <- readLines(input, n=1)\nn <- as.numeric(line)\nif (isPrime(n)) {\n    cat(\"Prime\\n\")\n} else {\n    cat(\"Not Prime\\n\")\n}",
+            "ruby": "require 'prime'\nn = gets.to_i\nputs Prime.prime?(n) ? \"Prime\" : \"Not Prime\"",
+            "php": "<?php\nfunction isPrime($n) {\n    if ($n < 2) return false;\n    for ($i = 2; $i <= sqrt($n); $i++) {\n        if ($n % $i == 0) return false;\n    }\n    return true;\n}\n\nfscanf(STDIN, \"%d\", $n);\necho isPrime($n) ? \"Prime\" : \"Not Prime\";\n?>"
+        },
         "testCases": [
             {
                 "stdin": "2",
@@ -187,7 +295,19 @@
         "id": 10,
         "title": "String Length",
         "description": "Write a program that counts the length of a string without using len().",
-        "starterCode": "text = input()\ncount = 0\nfor char in text:\n    count += 1\nprint(count)",
+        "starterCode": {
+            "python": "text = input()\ncount = 0\nfor char in text:\n    count += 1\nprint(count)",
+            "javascript": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nrl.on('line', (line) => {\n  let count = 0;\n  for (let i = 0; i < line.length; i++) {\n    count++;\n  }\n  console.log(count);\n  rl.close();\n});",
+            "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        if (scanner.hasNextLine()) {\n            String text = scanner.nextLine();\n            int count = 0;\n            for (char c : text.toCharArray()) {\n                count++;\n            }\n            System.out.println(count);\n        }\n    }\n}",
+            "c": "#include <stdio.h>\n\nint main() {\n    char str[1000];\n    if (scanf(\"%[^\\n]\", str) == 1) {\n        int count = 0;\n        while (str[count] != '\\0') {\n            count++;\n        }\n        printf(\"%d\\n\", count);\n    }\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n\nint main() {\n    std::string text;\n    if (std::getline(std::cin, text)) {\n        int count = 0;\n        for (char c : text) {\n            count++;\n        }\n        std::cout << count << std::endl;\n    }\n    return 0;\n}",
+            "csharp": "using System;\n\npublic class HelloWorld\n{\n    public static void Main(string[] args)\n    {\n        string line = Console.ReadLine();\n        if (line != null) {\n            int count = 0;\n            foreach (char c in line) {\n                count++;\n            }\n            Console.WriteLine(count);\n        }\n    }\n}",
+            "nodejs": "const readline = require('readline');\nconst rl = readline.createInterface({\n  input: process.stdin,\n  output: process.stdout\n});\n\nrl.on('line', (line) => {\n  let count = 0;\n  for (let i = 0; i < line.length; i++) {\n    count++;\n  }\n  console.log(count);\n  rl.close();\n});",
+            "lua": "local text = io.read(\"*l\")\nlocal count = 0\nfor i = 1, #text do\n    count = count + 1\nend\nprint(count)",
+            "r": "input <- file('stdin', 'r')\nline <- readLines(input, n=1)\ncat(nchar(line), \"\\n\")",
+            "ruby": "puts gets.chomp.length",
+            "php": "<?php\n$text = fgets(STDIN);\n$count = 0;\nwhile (isset($text[$count])) {\n    $count++;\n}\necho $count - 1; // Subtract newline\n?>"
+        },
         "testCases": [
             {
                 "stdin": "hello",

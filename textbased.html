@@ -23,10 +23,25 @@
 
             <!-- Start Screen Overlay -->
             <div id="startScreen" class="start-screen">
-                <h2>Hackathon Challenge</h2>
-                <p class="lead">Solve 10 coding challenges to complete the hackathon!</p>
-                <p>Each question must be solved before moving to the next one.</p>
-                <button id="btnStart" class="btn btn-primary btn-start">Start Challenge</button>
+                <h1>Coding Challenge</h1>
+                <p>You have 45 minutes to complete 5 questions.</p>
+                <div class="language-selection">
+                    <label for="languageSelect">Choose Language:</label>
+                    <select id="languageSelect" class="form-select">
+                        <option value="python">Python</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="java">Java</option>
+                        <option value="c">C</option>
+                        <option value="cpp">C++</option>
+                        <option value="csharp">C#</option>
+                        <option value="nodejs">Node.js</option>
+                        <option value="lua">Lua</option>
+                        <option value="r">R</option>
+                        <option value="ruby">Ruby</option>
+                        <option value="php">PHP</option>
+                    </select>
+                </div>
+                <button id="btnStart" class="btn-primary">Start Challenge</button>
             </div>
 
             <!-- Main Challenge Content -->
@@ -39,7 +54,7 @@
                 <!-- Section 2: Editor -->
                 <div class="editor-container">
                     <iframe id="oc-editor" frameBorder="0" width="100%" height="100%"
-                        src="https://onecompiler.com/embed/python?listenToEvents=true&codeChangeEvent=true&hideResult=true&hideStdin=true&availableLanguages=python,javascript,java,c,cpp,csharp,nodejs,lua,r,ruby,php&hideNew=true&hideRun=true&disableCopyPaste=true&hideResult=true"></iframe>
+                        src="https://onecompiler.com/embed/python?listenToEvents=true&codeChangeEvent=true&hideResult=true&hideStdin=true&hideLanguageSelection=true&hideNew=true&hideRun=true&disableCopyPaste=true&hideResult=true"></iframe>
                 </div>
 
                 <!-- Section 3: Controls with Submit Button and Output Matching -->

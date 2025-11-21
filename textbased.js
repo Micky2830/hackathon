@@ -22,12 +22,26 @@ let currentMatchPercentage = 0;
 let isCorrect = false;
 let currentCode = "";
 let currentTestCase = null;
-let testQueue = [];
-let currentTestIndex = 0;
 let passCount = 0;
+let currentLanguage = "python";
+
+const languageFiles = {
+    "python": "main.py",
+    "javascript": "index.js",
+    "java": "Main.java",
+    "c": "main.c",
+    "cpp": "main.cpp",
+    "csharp": "HelloWorld.cs",
+    "nodejs": "index.js",
+    "lua": "main.lua",
+    "r": "main.r",
+    "ruby": "main.rb",
+    "php": "main.php"
+};
 
 // DOM Elements
 const startScreen = document.getElementById('startScreen');
+const languageSelect = document.getElementById('languageSelect');
 const challengeContent = document.getElementById('challengeContent');
 const completionScreen = document.getElementById('completionScreen');
 const questionList = document.getElementById('questionList');
@@ -90,17 +104,25 @@ function showQuestion(index) {
         <p>${challenge.description}</p>
     `;
 
-    currentCode = challenge.starterCode;
+    // Get starter code for current language
+    // Fallback to python or empty string if not found
+    if (typeof challenge.starterCode === 'object') {
+        currentCode = challenge.starterCode[currentLanguage] || "";
+    } else {
+        currentCode = challenge.starterCode; // Legacy support or default
+    }
+
+    const fileName = languageFiles[currentLanguage] || "main.py";
 
     // Load starter code into iframe
     setTimeout(() => {
         iframe.contentWindow.postMessage({
             eventType: 'populateCode',
-            language: 'python',
+            language: currentLanguage,
             files: [
                 {
-                    name: 'main.py',
-                    content: challenge.starterCode
+                    name: fileName,
+                    content: currentCode
                 }
             ],
             stdin: challenge.testCases[0].stdin
@@ -191,7 +213,14 @@ function updateMatchDisplay(percentage, isCorrect) {
 
 // Event listeners
 btnStart.addEventListener('click', () => {
+    currentLanguage = languageSelect.value;
+
+    // Update iframe src with selected language
+    const newSrc = `https://onecompiler.com/embed/${currentLanguage}?listenToEvents=true&codeChangeEvent=true&hideResult=true&hideStdin=true&hideLanguageSelection=true&hideNew=true&hideRun=true&disableCopyPaste=true&hideResult=true`;
+    iframe.src = newSrc;
+
     startScreen.style.display = 'none';
+    challengeContent.style.display = 'flex';
     startTimer();
     showQuestion(0);
 });
@@ -203,13 +232,15 @@ function runNextTestCase(code) {
 
         console.log(`Running test case ${currentTestIndex + 1}/${testQueue.length} with stdin:`, currentTestCase.stdin);
 
+        const fileName = languageFiles[currentLanguage] || "main.py";
+
         // Update stdin and code using populateCode to ensure stdin is updated
         iframe.contentWindow.postMessage({
             eventType: 'populateCode',
-            language: 'python',
+            language: currentLanguage,
             files: [
                 {
-                    name: 'main.py',
+                    name: fileName,
                     content: code
                 }
             ],

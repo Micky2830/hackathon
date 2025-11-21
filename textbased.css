@@ -70,8 +70,40 @@
     color: #0d6efd;
 }
 
+.start-screen p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.language-selection {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.language-selection label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.language-selection select {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: white;
+    min-width: 200px;
+    cursor: pointer;
+}
+
 .btn-start {
     padding: 12px 32px;
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    padding: 12px 30px;
     font-size: 1.2rem;
 }
 
