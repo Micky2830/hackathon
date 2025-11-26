@@ -18,28 +18,81 @@
     flex-direction: column;
     padding: 20px;
     position: relative;
+    overflow-y: auto;
+    /* Enable vertical scrolling */
 }
 
-.question-item {
-    padding: 12px;
-    margin-bottom: 8px;
-    border-radius: 6px;
+#challengeContent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    /* Allow flex child to shrink properly */
+}
+
+.level-header {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #6c757d;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.question-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.question-btn {
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: white;
     transition: all 0.2s;
+    opacity: 0.8;
 }
 
-.question-item.active {
-    background: #0d6efd;
-    color: white;
+.question-btn:hover {
+    opacity: 1;
+    transform: scale(1.05);
 }
 
-.question-item.completed {
-    background: #28a745;
-    color: white;
+.question-btn.active {
+    opacity: 1;
+    box-shadow: 0 0 0 2px #0d6efd;
+    z-index: 1;
 }
 
-.question-item:not(.active):not(.completed):hover {
-    background: #e9ecef;
+.question-btn.completed {
+    background-color: #198754 !important;
+    /* Success Green */
+    opacity: 1;
+}
+
+/* Level Colors */
+.btn-easy {
+    background-color: #0dcaf0;
+    /* Cyan */
+    color: #000;
+}
+
+.btn-normal {
+    background-color: #ffc107;
+    /* Yellow */
+    color: #000;
+}
+
+.btn-hard {
+    background-color: #dc3545;
+    /* Red */
 }
 
 .timer-display {
@@ -144,7 +197,13 @@
     gap: 20px;
 }
 
-.output-matching,
+.output-matching {
+    flex: 0 0 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .code-capture {
     flex: 1;
     display: flex;
@@ -169,10 +228,11 @@
 }
 
 .output-textarea {
+    flex: 1;
     min-height: 100px;
     font-family: 'Courier New', monospace;
     font-size: 14px;
-    resize: vertical;
+    resize: none;
 }
 
 .match-percentage {

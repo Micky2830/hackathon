@@ -64,28 +64,71 @@ const iframe = document.getElementById('oc-editor');
 
 
 // Initialize question list
+// Initialize question list
 function initQuestionList() {
     questionList.innerHTML = '';
+
+    const levels = ['easy', 'normal', 'hard'];
+    const levelTitles = {
+        'easy': 'Easy',
+        'normal': 'Normal',
+        'hard': 'Hard'
+    };
+
+    // Group challenges by level
+    const groupedChallenges = {
+        'easy': [],
+        'normal': [],
+        'hard': []
+    };
+
     challenges.forEach((challenge, index) => {
-        const questionItem = document.createElement('div');
-        questionItem.className = 'question-item';
-        questionItem.textContent = `Q${challenge.id}: ${challenge.title} `;
-        questionItem.dataset.index = index;
-        questionItem.addEventListener('click', () => {
-            if (index <= currentQuestion || completedQuestions.has(index)) {
-                showQuestion(index);
-            }
-        });
-        questionList.appendChild(questionItem);
+        if (groupedChallenges[challenge.level]) {
+            groupedChallenges[challenge.level].push({ ...challenge, originalIndex: index });
+        }
     });
+
+    levels.forEach(level => {
+        if (groupedChallenges[level].length > 0) {
+            // Create Header
+            const header = document.createElement('h6');
+            header.className = 'level-header';
+            header.textContent = levelTitles[level];
+            questionList.appendChild(header);
+
+            // Create Grid Container
+            const grid = document.createElement('div');
+            grid.className = 'question-grid';
+
+            groupedChallenges[level].forEach(item => {
+                const btn = document.createElement('div');
+                btn.className = `question-btn btn-${level}`;
+                btn.textContent = item.id;
+                btn.dataset.index = item.originalIndex;
+
+                btn.addEventListener('click', () => {
+                    if (item.originalIndex <= currentQuestion || completedQuestions.has(item.originalIndex)) {
+                        showQuestion(item.originalIndex);
+                    }
+                });
+
+                grid.appendChild(btn);
+            });
+
+            questionList.appendChild(grid);
+        }
+    });
+
     updateQuestionList();
 }
 
 // Update question list styling
 function updateQuestionList() {
-    const items = document.querySelectorAll('.question-item');
-    items.forEach((item, index) => {
+    const items = document.querySelectorAll('.question-btn');
+    items.forEach(item => {
+        const index = parseInt(item.dataset.index);
         item.classList.remove('active', 'completed');
+
         if (index === currentQuestion) {
             item.classList.add('active');
         } else if (completedQuestions.has(index)) {
@@ -129,7 +172,7 @@ function showQuestion(index) {
         }, '*');
     }, 500);
 
-    outputArea.value = '--';
+    outputArea.value = ' ';
     matchPercentage.textContent = 'Match: 0%';
     matchPercentage.className = 'match-percentage match-none';
     hasRunCode = false;
@@ -216,7 +259,7 @@ btnStart.addEventListener('click', () => {
     currentLanguage = languageSelect.value;
 
     // Update iframe src with selected language
-    const newSrc = `https://onecompiler.com/embed/${currentLanguage}?listenToEvents=true&codeChangeEvent=true&hideResult=true&hideStdin=true&hideLanguageSelection=true&hideNew=true&hideRun=true&disableCopyPaste=true&hideResult=true`;
+    const newSrc = `https://onecompiler.com/embed/${currentLanguage}?listenToEvents=true&codeChangeEvent=true&hideResult=true&hideStdin=true&hideLanguageSelection=true&hideNew=true&hideRun=true&hideResult=true`;
     iframe.src = newSrc;
 
     startScreen.style.display = 'none';
@@ -261,6 +304,7 @@ function runNextTestCase(code) {
 
         // Enable submit button if code has been run (regardless of result)
         btnSubmit.disabled = false;
+        btnRun.disabled = false;
     }
 }
 
@@ -275,6 +319,7 @@ btnRun.addEventListener('click', () => {
     matchPercentage.textContent = 'Running...';
     matchPercentage.className = 'match-percentage';
     btnSubmit.disabled = true;
+    btnRun.disabled = true;
 
     runNextTestCase(currentCode);
 });
@@ -344,7 +389,7 @@ window.addEventListener('message', function (e) {
             currentTestIndex++;
             setTimeout(() => {
                 runNextTestCase(currentCode);
-            }, 100);
+            }, 1);
 
 
         } else {
@@ -354,10 +399,13 @@ window.addEventListener('message', function (e) {
 
 
         if (isCorrect && !completedQuestions.has(currentQuestion)) {
-            const items = document.querySelectorAll('.question-item');
-            if (items[currentQuestion]) {
-                items[currentQuestion].classList.add('completed');
-            }
+            const items = document.querySelectorAll('.question-btn');
+            // We need to find the button with the correct dataset index
+            items.forEach(item => {
+                if (parseInt(item.dataset.index) === currentQuestion) {
+                    item.classList.add('completed');
+                }
+            });
         }
     }
 });

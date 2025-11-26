@@ -151,7 +151,7 @@
                 "stdout": "3"
             },
             {
-                "stdin": "\r",
+                "stdin": "",
                 "stdout": "0"
             },
             {
@@ -316,7 +316,7 @@
                 "stdout": "cba"
             },
             {
-                "stdin": "\r",
+                "stdin": "",
                 "stdout": ""
             },
             {
@@ -859,7 +859,7 @@
                 "stdout": "No"
             },
             {
-                "stdin": "\r",
+                "stdin": "",
                 "stdout": "Yes"
             },
             {
@@ -974,7 +974,7 @@
             },
             {
                 "stdin": "3\n0 0 1\n0 2 0\n3 0 0",
-                "stdout": "3"
+                "stdout": "2"
             },
             {
                 "stdin": "4\n1 0 0 0\n0 1 0 0\n0 0 1 0\n0 0 0 1",
@@ -1217,7 +1217,7 @@
                 "stdout": "apple"
             },
             {
-                "stdin": "/r",
+                "stdin": "",
                 "stdout": ""
             },
             {

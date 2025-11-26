@@ -45,7 +45,7 @@
             </div>
 
             <!-- Main Challenge Content -->
-            <div id="challengeContent" style="display: flex; flex-direction: column; height: 100%;">
+            <div id="challengeContent">
                 <!-- Section 1: Question Content -->
                 <div id="questionContent" class="question-content">
                     <!-- Question content will be displayed here -->
@@ -54,7 +54,7 @@
                 <!-- Section 2: Editor -->
                 <div class="editor-container">
                     <iframe id="oc-editor" frameBorder="0" width="100%" height="100%"
-                        src="https://onecompiler.com/embed/python?listenToEvents=true&codeChangeEvent=true&hideResult=true&hideStdin=true&hideLanguageSelection=true&hideNew=true&hideRun=true&disableCopyPaste=true&hideResult=true&hideTitle=true"></iframe>
+                        src="https://onecompiler.com/embed/python?listenToEvents=true&codeChangeEvent=true&hideResult=true&hideStdin=true&hideLanguageSelection=true&hideNew=true&hideRun=true&hideResult=true"></iframe>
                 </div>
 
                 <!-- Section 3: Controls with Submit Button and Output Matching -->
@@ -67,7 +67,7 @@
                     <div class="results-container">
                         <div class="output-matching">
                             <div class="output-header">Output Result Matching:</div>
-                            <textarea id="outputArea" class="form-control output-textarea" readonly>--</textarea>
+                            <textarea id="outputArea" class="form-control output-textarea" readonly></textarea>
                             <div id="matchPercentage" class="match-percentage">Match: 0%</div>
                         </div>
                         <div class="code-capture">
