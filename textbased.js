@@ -107,9 +107,10 @@ function initQuestionList() {
                 btn.dataset.index = item.originalIndex;
 
                 btn.addEventListener('click', () => {
-                    if (item.originalIndex <= currentQuestion || completedQuestions.has(item.originalIndex)) {
+                    if (!completedQuestions.has(item.originalIndex)) {
                         showQuestion(item.originalIndex);
                     }
+
                 });
 
                 grid.appendChild(btn);
@@ -325,19 +326,22 @@ btnRun.addEventListener('click', () => {
 });
 
 btnSubmit.addEventListener('click', () => {
-    if (hasRunCode) {
-        if (currentQuestion < challenges.length - 1) {
-            completedQuestions.add(currentQuestion);
-            currentQuestion++;
-            showQuestion(currentQuestion);
-        } else {
-            // All questions completed
-            stopTimer();
-            completionScreen.style.display = 'flex';
-            document.getElementById('finalTime').textContent = `Final Time: ${getFinalTime()} `;
-        }
+    if (!hasRunCode) return;  // must run code before submitting
+    
+    // Mark this question as completed
+    completedQuestions.add(currentQuestion);
+    updateQuestionList();
+
+    // Check if everything is done
+    if (completedQuestions.size === challenges.length) {
+        stopTimer();
+        completionScreen.style.display = 'flex';
+        document.getElementById('finalTime').textContent = `Final Time: ${getFinalTime()} `;
+    } else {
+        alert("✔ Question submitted! You may choose another question.");
     }
 });
+
 
 btnRestart.addEventListener('click', () => {
     completionScreen.style.display = 'none';
